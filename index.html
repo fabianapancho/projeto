@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Agencia de Turismo</title>
+  </head>
+  <body>
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index:999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#">Agencia de Turismo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destino</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="formulario.html">cadastrocliente</a></li>
+                  <li><a class="dropdown-item" href="destino.html">cadastrodestino</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+               </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Busca destino</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br><br><br>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/pscina2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/namoradeira.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/pscina.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+        <div class="col">
+          <div class="card">
+            <img src="/img/catussaba-resort-hotel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pacotes</h5>
+              <p class="card-text"> Os hoteis conveniados possuem Restaurantes Intenacionais e Nacionais totalizando 
+                520 lugares simultaneamente, um restaurante na pscina, um beach club e um restaurante.
+                Horario dos serviços: 
+                Bar e Restaurante da Pscina - 10h00 às 18:00 
+                Casa do pão de queijo - 13h as 22h 
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/img/hotsalvador.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Apartamentos</h5>
+              <p class="card-text">Os melhores apartamentos 5 estrelas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/cardapio.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cardápio</h5>
+              <p class="card-text">Gastronomia de Ponta - melhores masters chefs comanda os Restaurantes do nossos risorts</p>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="col-11 m-auto">
+        <h2 class="text-center">Formas de Pagamento</h2>
+        <p class="text-center">Formas de pagamento:<br>
+          <hr>
+          Pague no cartão de credito em até 12x <br>
+         Pague com o pix e tenha 10% de desconto no seu pacote de viagem <br>
+        Boleto, a vista ou parcelado. </p>
+      </div>
+      <hr>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Quem somos
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Quem somos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="/img/catussaba.jpg" class="card-img-top" alt="...">
+            <p>Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão duris.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Admodum accumsan disputationi eu sit.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <hr>
+  <div class="col-11 m-auto">
+    <h2 class="text-center">Contato</h2> 
+    <div class="m-auto" style="width:150px;"> 
+            <i class="fab fa-whatsapp" style="font-size: 100px; color: green;"></i>
+              </a>
+    </div>
+     
+  <footer style="background-color: #333;" class="page-footer font-small blue p-5">
+    <div class="text-center">
+        <a href="/"> 2022 Copyrigth @fabiana.pancho</a>
+    </div>
+  </footer>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  </body>
+</html>
