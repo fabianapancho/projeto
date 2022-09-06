@@ -1,0 +1,31 @@
+@media screen e (max-width :  760 px){
+
+    body {
+        flex-direction : coluna;
+    }
+
+    main {
+        flex-direction : coluna;
+    }
+
+    h2 {
+        tamanho da fonte :  38px;
+    }
+
+    form {
+        margem :  0 automático;
+        largura :  100 % ;
+    }
+
+    entrada {
+        align-self : centro;
+    }
+
+    img {
+        exibição : nenhum;
+    }
+
+    ul {
+        text-align : centro;
+    }
+}

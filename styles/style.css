@@ -1,0 +1,107 @@
+body{ 
+    background-color: rgb(247, 234, 234);
+    color: rgba(29, 24, 1, 0.555);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color:rgb(46, 8, 8);
+    transition:0.4s all;
+}
+#promocoes-btn{
+    border: 2px solid rgb(255, 238, 0);
+    padding: 10px;
+    border-radius: 15px;
+}
+#promocoes-btn:hover{
+        background-color: rgb(255, 238, 0);
+        color: rgb(0, 0, 0);
+
+}
+
+h1{
+    font-weight: 200;
+
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font: size 100px;
+    line-height: 20px;
+    font-family: poppinsmedium;
+
+}
+span{
+    color: rgb(255, 238, 0);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-block-end: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:  100%;
+}
+form [type="enviar"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    font-weight: bold;
+}
+form [type="enviar"]:hover{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    font-weight: bold;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
